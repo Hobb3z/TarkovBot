@@ -6,7 +6,7 @@ from tkinter.font import *
 #Main Window
 m = tk.Tk()
 m.title("Tarkov Botting Script")
-m.iconbitmap(r"finally.ico")
+m.iconbitmap("finally.ico")
 m.geometry("300x200")
 m.configure(bg="#373C49")
 
