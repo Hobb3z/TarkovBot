@@ -3,6 +3,8 @@ import tkinter as tk
 from tkinter import *
 from tkinter.font import *
 
+#Import Other Scripts
+import test
 
 #Main Window
 m = tk.Tk()
@@ -40,6 +42,7 @@ s.pack()
 
 #Commands
 def startBot():
+    test.run
     return
 
 def stopBot():
