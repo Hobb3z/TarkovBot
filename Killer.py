@@ -288,6 +288,7 @@ def startBot():
         print("Broke during Map Select")
 
 def stopBot():
+    print('Stopping the bot!')
     return
 
 #Buttons
