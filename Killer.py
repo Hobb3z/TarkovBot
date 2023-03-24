@@ -39,7 +39,6 @@ s.pack()
 
 #Commands
 def startBot():
-    test()
     return
 
 def stopBot():
