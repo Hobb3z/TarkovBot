@@ -3,12 +3,20 @@ import tkinter as tk
 from tkinter import *
 from tkinter.font import *
 
+from PIL import Image
+import requests
+from io import BytesIO
+
+response = requests.get("https://raw.githubusercontent.com/Hobb3z/TarkovBot/main/finally.ico")
+img = Image.open(BytesIO(response.content))
+
 #Main Window
 m = tk.Tk()
 m.title("Tarkov Botting Script")
 #m.iconbitmap("finally.ico")
 m.geometry("300x200")
 m.configure(bg="#373C49")
+m.wm_iconphoto(False, img)
 
 #Map Selection
 maptitle = Label(m, text='Choose a map to run:', bg="#373C49",fg="white",font=Font(size=12))
