@@ -13,7 +13,7 @@ m.configure(bg="#373C49")
 #Map Selection
 maptitle = Label(m, text='Choose a map to run:', bg="#373C49",fg="white",font=Font(size=12))
 maptitle.pack(pady=1)
-maps = ["Shoreline","Woods","Customs","Factory","Interchange","Lighthouse","Reserve","Streets Of Tarkov","Immigrant's Moms house"]
+maps = ["Shoreline","Woods","Customs","Factory","Interchange","Lighthouse","Reserve","Streets Of Tarkov"]
 mapname = StringVar()
 mapname.set("Shoreline")
 w = tk.OptionMenu(m,mapname, *maps)
