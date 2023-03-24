@@ -22,7 +22,7 @@ w.pack()
 #Healing Options
 Healtitle = Label(m, text='Choose a healing option:', bg="#373C49",fg="white",font=Font(size=12))
 Healtitle.pack(pady=1)
-Healing = ["Full Heal","Only Heal breaks/bleeds","Don't Heal"]
+Healing = ["Full Heal","Only Heal breaks/bleeds","Don't Heal","Broke Nigga Mode"]
 healingop = StringVar()
 healingop.set("Full Heal")
 h = tk.OptionMenu(m,healingop, *Healing)
