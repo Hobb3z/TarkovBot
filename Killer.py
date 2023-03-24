@@ -16,7 +16,6 @@ m.title("Tarkov Botting Script")
 #m.iconbitmap("finally.ico")
 m.geometry("300x200")
 m.configure(bg="#373C49")
-m.iconbitmap(response)
 
 #Map Selection
 maptitle = Label(m, text='Choose a map to run:', bg="#373C49",fg="white",font=Font(size=12))
