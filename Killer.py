@@ -39,7 +39,60 @@ s.pack()
 
 #Commands
 def startBot():
-    print(mapname.get())
+    mapSel = mapname.get()
+    healSel = healingop.get()
+    skillSel = skillop.get()
+
+    if mapSel == "Shoreline":
+        if healSel == "Full Heal":
+            if skillSel == "Endurance/Strength":
+                print("Works1")
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Only Heal breaks/bleeds":
+            if skillSel == "Endurance/Strength":
+                print("Works2")
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Don't Heal":
+            if skillSel == "Endurance/Strength":
+                print("Works3")
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        else:
+            print("Broke after Heal Select")
+
+    elif mapSel == "Woods":
+        return
+    elif mapSel == "Customs":
+        return
+    elif mapSel == "Factory":
+        return
+    elif mapSel == "Interchange":
+        return
+    elif mapSel == "Lighthouse":
+        return
+    elif mapSel == "Reserve":
+        return
+    elif mapSel == "Streets Of Tarkov":
+        return
+    else:
+        print("Broke during Map Select")
 
 def stopBot():
     return
