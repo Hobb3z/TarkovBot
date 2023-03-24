@@ -1,1 +1,2 @@
-print(hi)
+def test():
+  print(hi)
