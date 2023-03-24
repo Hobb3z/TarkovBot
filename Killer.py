@@ -4,7 +4,7 @@ from tkinter import *
 from tkinter.font import *
 
 #Import Other Scripts
-import r"https://github.com/Hobb3z/TarkovBot/blob/main/kip.py"
+import "https://github.com/Hobb3z/TarkovBot/blob/main/kip.py"
 
 #Main Window
 m = tk.Tk()
