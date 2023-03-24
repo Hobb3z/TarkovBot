@@ -4,7 +4,7 @@ from tkinter import *
 from tkinter.font import *
 
 #Import Other Scripts
-from kip import question
+from kip import test
 
 #Main Window
 m = tk.Tk()
