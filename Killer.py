@@ -7,7 +7,7 @@ from PIL import Image
 import requests
 from io import BytesIO
 
-response = requests.get("https://raw.githubusercontent.com/Hobb3z/TarkovBot/main/finally.ico")
+response = requests.get(https://raw.githubusercontent.com/Hobb3z/TarkovBot/main/finally.ico)
 img = Image.open(BytesIO(response.content))
 
 #Main Window
