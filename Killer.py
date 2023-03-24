@@ -3,13 +3,6 @@ import tkinter as tk
 from tkinter import *
 from tkinter.font import *
 
-from PIL import Image
-import requests
-from io import BytesIO
-
-response = requests.get("https://raw.githubusercontent.com/Hobb3z/TarkovBot/main/finally.ico")
-img = Image.open(BytesIO(response.content))
-
 #Main Window
 m = tk.Tk()
 m.title("Tarkov Botting Script")
