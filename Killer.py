@@ -46,7 +46,6 @@ def startBot():
     if mapSel == "Shoreline":
         if healSel == "Full Heal":
             if skillSel == "Endurance/Strength":
-                print("Works1")
                 return
             elif skillSel == "Covert":
                 return
@@ -56,7 +55,6 @@ def startBot():
                 print("Broke after Skill Select")
         elif healSel == "Only Heal breaks/bleeds":
             if skillSel == "Endurance/Strength":
-                print("Works2")
                 return
             elif skillSel == "Covert":
                 return
@@ -66,7 +64,6 @@ def startBot():
                 print("Broke after Skill Select")
         elif healSel == "Don't Heal":
             if skillSel == "Endurance/Strength":
-                print("Works3")
                 return
             elif skillSel == "Covert":
                 return
@@ -78,19 +75,215 @@ def startBot():
             print("Broke after Heal Select")
 
     elif mapSel == "Woods":
-        return
+        if healSel == "Full Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Only Heal breaks/bleeds":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Don't Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        else:
+            print("Broke after Heal Select")
     elif mapSel == "Customs":
-        return
+        if healSel == "Full Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Only Heal breaks/bleeds":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Don't Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        else:
+            print("Broke after Heal Select")
     elif mapSel == "Factory":
-        return
+        if healSel == "Full Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Only Heal breaks/bleeds":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Don't Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        else:
+            print("Broke after Heal Select")
     elif mapSel == "Interchange":
-        return
+        if healSel == "Full Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Only Heal breaks/bleeds":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Don't Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        else:
+            print("Broke after Heal Select")
     elif mapSel == "Lighthouse":
-        return
+        if healSel == "Full Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Only Heal breaks/bleeds":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Don't Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        else:
+            print("Broke after Heal Select")
     elif mapSel == "Reserve":
-        return
+        if healSel == "Full Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Only Heal breaks/bleeds":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Don't Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        else:
+            print("Broke after Heal Select")
     elif mapSel == "Streets Of Tarkov":
-        return
+        if healSel == "Full Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Only Heal breaks/bleeds":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        elif healSel == "Don't Heal":
+            if skillSel == "Endurance/Strength":
+                return
+            elif skillSel == "Covert":
+                return
+            elif skillSel == "Death, heavy bleeds required":
+                return
+            else:
+                print("Broke after Skill Select")
+        else:
+            print("Broke after Heal Select")
     else:
         print("Broke during Map Select")
 
