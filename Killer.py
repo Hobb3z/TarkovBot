@@ -42,7 +42,7 @@ s.pack()
 
 #Commands
 def startBot():
-    test.run
+    test.test()
     return
 
 def stopBot():
