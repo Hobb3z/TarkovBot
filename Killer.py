@@ -3,31 +3,38 @@ import tkinter as tk
 from tkinter import *
 from tkinter.font import *
 
+#Main Window
 m = tk.Tk()
 m.title("Tarkov Botting Script")
 m.iconbitmap("finally.ico")
 m.geometry("300x200")
-m.configure(bg="#71797E")
+m.configure(bg="#373C49")
 
 #Map Selection
-maptitle = Label(m, text='Choose a map to run:', bg="#71797E",fg="white",font=Font(size=12))
+maptitle = Label(m, text='Choose a map to run:', bg="#373C49",fg="white",font=Font(size=12))
 maptitle.pack(pady=1)
 maps = ["Shoreline","Woods","Customs","Factory","Interchange","Lighthouse","Reserve","Streets Of Tarkov"]
-w = tk.Spinbox(m, values=maps,font=Font(size=12),state = 'readonly')
+mapname = StringVar()
+mapname.set("Shoreline")
+w = tk.OptionMenu(m,mapname, *maps)
 w.pack()
 
 #Healing Options
-Healtitle = Label(m, text='Choose a healing option:', bg="#71797E",fg="white",font=Font(size=12))
+Healtitle = Label(m, text='Choose a healing option:', bg="#373C49",fg="white",font=Font(size=12))
 Healtitle.pack(pady=1)
 Healing = ["Full Heal","Only Heal breaks/bleeds","Don't Heal"]
-h = tk.Spinbox(m, values=Healing,font=Font(size=12),state = 'readonly')
+healingop = StringVar()
+healingop.set("Full Heal")
+h = tk.OptionMenu(m,healingop, *Healing)
 h.pack()
 
 #Skill Options
-skilltitle = Label(m, text='Choose a skill to level:', bg="#71797E",fg="white",font=Font(size=12))
+skilltitle = Label(m, text='Choose a skill to level:', bg="#373C49",fg="white",font=Font(size=12))
 skilltitle.pack(pady=1)
 Skills = ["Endurance/Strength","Covert","Death, heavy bleeds required"]
-s = tk.Spinbox(m, values=Skills,font=Font(size=12),state = 'readonly')
+skillop = StringVar()
+skillop.set("Endurance/Strength")
+s = tk.OptionMenu(m,skillop, *Skills)
 s.pack()
 
 #Commands
@@ -37,9 +44,8 @@ def startBot():
 def stopBot():
     return
 
-
 #Buttons
-frame = Frame(m, bg="#71797E")
+frame = Frame(m, bg="#373C49")
 frame.pack()
 startbutton = Button(frame, text = 'Start', command = startBot)
 startbutton.pack(side = LEFT,pady=5)
