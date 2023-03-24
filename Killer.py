@@ -3,9 +3,6 @@ import tkinter as tk
 from tkinter import *
 from tkinter.font import *
 
-#Import Other Scripts
-import "https://github.com/Hobb3z/TarkovBot/blob/main/kip.py"
-
 #Main Window
 m = tk.Tk()
 m.title("Tarkov Botting Script")
