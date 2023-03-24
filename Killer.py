@@ -39,7 +39,7 @@ s.pack()
 
 #Commands
 def startBot():
-    print(w)
+    print(mapname)
 
 def stopBot():
     return
