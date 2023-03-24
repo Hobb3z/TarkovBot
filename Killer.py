@@ -39,7 +39,8 @@ s.pack()
 
 #Commands
 def startBot():
-    return
+    selMap = w.get()
+    print(selMap)
 
 def stopBot():
     return
